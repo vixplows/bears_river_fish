@@ -2,9 +2,10 @@ require ('minitest/autorun')
 require ('minitest/rg')
 require_relative ('../bears')
 
-class TestBears < MiniTest::Test
+class TestBear < MiniTest::Test
 
   def setup
+    @bear = Bear.new("Baloo")
   end
 
 end
